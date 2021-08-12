@@ -24,6 +24,7 @@ form {
     padding: 0;
 }
 
+
 .content {
 	width: 800px;
 	margin: 0 auto;
@@ -56,6 +57,12 @@ form {
 	padding: 10px 30px 10px;
 }
 
+.tip {
+	font-size:12px;
+	color: gray;
+	padding-left : 206px;
+}
+
 .wrap {
 	padding: 20px 0 30px;
 }
@@ -65,7 +72,7 @@ form {
 }
 
 .wrap3 {
-	padding: 20px 0 30px;
+	padding: 10px 0 30px;
 }
 
 .wrap4 {
@@ -115,6 +122,10 @@ ul {
 ul li  {
 	font-size:12px;
 	color: #a3a3a3;
+	text-align: left;
+	text-indent: -6px;
+	margin-left: 6px;
+	padding-right :78px;
 }
 
 /** 취소, 가입 버튼*/
