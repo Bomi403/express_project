@@ -23,7 +23,8 @@ body {
 
 .content {
 	padding: 10px 40px 30px 40px;
-	width: 1200px;
+	width: auto;
+	height: auto;
 	position: relative;
 }
 
@@ -46,7 +47,7 @@ input[type="password"] {
 	border-top:none;
     height:32px;
     line-height:30px;
-	width: 300px;
+	width: 215px;
 }
 
 
