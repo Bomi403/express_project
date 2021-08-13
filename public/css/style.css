@@ -7,60 +7,61 @@
 	font-family: 'Noto Sans KR', sans-serif;
 }
 
-html {
-	font-size: 16px; 
+html, body {
+	height:100%;
+	color:#000000;
+	font-size:14px;
+	line-height: 1.5;
+	margin:0;
+	letter-spacing:-0.03em;
+	overflow:auto;
 }
 
-body { 
-	color: #000000;
-	margin: 100px 50px 100px 250px;
-	letter-spacing: -0.03em;
+body {
 	display:block;
 }
 
-
-form {
-	margin: 0;
-    padding: 0;
-}
-
-
 .content {
-	width: 800px;
-	margin: 0 auto;
+	padding: 10px 40px 30px 40px;
+	width: 1200px;
+	position: relative;
 }
-
 
 /**안내*/
 
-.inner {
-	width: 1020px;
-    margin-bottom: 25px;
-    padding: 15px 0;
-	font-size: 12px;
-	color : gary;
-}
 
 .explain {
-	width: 800px;
 	height: 150px;
 	text-align: center;
 }
 /**회원정보 입력*/
 
-.info {
-	box-sizing: border-box;
-	color: gray;
-	width: 720px;
-	height: 150px;
-	border: 1px solid #e0e0e0;
-	padding: 10px 30px 10px;
+
+
+input[type="text"],
+input[type="password"] {
+	background:#ffffff;
+    border-left:none;
+	border-right:none;
+	border-top:none;
+    height:32px;
+    line-height:30px;
+	width: 300px;
 }
 
+
+.content input[type="text"],
+.content input[type="password"] {
+    height:38px;
+    font-size:11px;
+    line-height:18px;
+    vertical-align:top;
+}
+
+
 .tip {
-	font-size:12px;
+	font-size:10px;
 	color: gray;
-	padding-left : 206px;
 }
 
 .wrap {
@@ -81,15 +82,13 @@ form {
 
 .box1{
 	float: left;
-	width :calc(100% - 700px);
-	}
+}
 			
 .box2{
 	float: right;
-	width :210px;
 	height: 20px;
-	margin-right: 385px;
-	}
+	width :calc(100% - 30%);
+}
 
 .wrap:after {
 	clear: none;
@@ -101,8 +100,7 @@ form {
 
 .check {
 	height:50px;
-	width: 720px;
-	padding: 10px 200px 120px 0px;
+	padding: 10px 0px 160px 0px;
 	box-sizing: border-box;
 	border: 1px solid #d6d6d6;
 	border-left:none;
@@ -124,17 +122,12 @@ ul li  {
 	color: #a3a3a3;
 	text-align: left;
 	text-indent: -6px;
-	margin-left: 6px;
-	padding-right :78px;
 }
 
 /** 취소, 가입 버튼*/
 
 .btn {
     position: relative;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
     display: inline-block;
     border-width: 1px;
     border-style: solid;
@@ -156,17 +149,12 @@ ul li  {
 
 .btn-group {
 	text-align:center;
-	padding: 40px 180px 40px 0px;
+	padding: 40px 50px 40px 50px;
 }
 
 .btn-group:before, .btn-group:after {
     content: "";
     display: table;
-}
-
-.btn-group.half .btn {
-    float: left;
-    width: calc(50% - 6px);
 }
 
 .btn.normal {
